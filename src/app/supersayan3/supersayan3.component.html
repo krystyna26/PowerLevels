@@ -1,0 +1,12 @@
+<title>Super saiyan3 Component</title>
+
+<fieldset>
+  
+  <legend>Super Saiyan 3 Component</legend>
+  <br>
+  <p>Power Level: {{saiyan3Power}}</p>
+  <h4 *ngIf="saiyan3Power > 9000 && saiyan3Power <= 20000">Over 9000!</h4>
+  <h4 *ngIf="saiyan3Power > 20000 && saiyan3Power < 50000">Superlative!</h4>
+  <h4 *ngIf="saiyan3Power >= 50000">The One!</h4>
+  
+</fieldset>
